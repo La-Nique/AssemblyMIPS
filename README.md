@@ -1,7 +1,22 @@
 # Assembly Language (MIPS)
 
 ###### Computer Architecture II
-###### All assignments created by Lanique Peterson
+###### all files written by Lanique Peterson
+
+### Overview
+
+A collection of various cpp programs I've written with extensive notes and alternative approaches. Foundational code reviewing and experimentation.
+
+#### Synopsis of each file:
+
+| Name of File | Description | Specialities |
+| ----------- | ----------- |----------- |
+| smallerNumber | compares two and three numbers with one another and outputs which is the smaller number. | if else and function stacking |
+| leapYear| calculates the year the user entered and displays whether the year will be a common or leap year | boolean func |
+| daysOfTheMonth | calculates the number of days that are in a certain month and year of user's input, utilizes previous leapYear function | switch case and boolean func  |
+| fizzBuzz | 'FizzBuzz' challenge on Hackerrank | iterations |
+
+
 
 <!-- Assignment One -
 
