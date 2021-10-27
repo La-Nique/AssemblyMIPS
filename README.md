@@ -11,7 +11,8 @@ A collection of various MIPS instructions and programs I've written with extensi
 
 | Name of File | Description | Specialities |
 | ----------- | ----------- |----------- |
-| mupltipleOf31 | destination reigster copies value stored within another register (s0), destination register stores that value in $s0 multipled by thirty-one. | restricted to add, addi, and sub functions |
+| mupltipleOf31 | destination register copies value stored within another register (s0), destination register stores that value in $s0 multiplied by thirty-one.
+ | restricted to add, addi, and sub functions |
 <!-- 
 
 | leapYear| calculates the year the user entered and displays whether the year will be a common or leap year | boolean func |
