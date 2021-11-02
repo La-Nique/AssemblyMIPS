@@ -11,10 +11,9 @@ A collection of various MIPS instructions and programs I've written with extensi
 
 | Name of File | Description | Specialities |
 | ----------- | ----------- |----------- |
-| mupltipleOf31 | destination register copies value stored within another register, then is multiplied by thirty-one. | restricted to add, addi, and sub functions |
+| mulitpleof31 | destination register copies value stored within another register, then is multiplied by thirty-one. | restricted to add, addi, and sub functions |
+| mulitpleof24 | write num = num * 24 in MIPS ; the value of num is already in t4 ; new value should be stored in t4. | restricted to add, addi, and sub functions |
 <!-- 
-
-| leapYear| calculates the year the user entered and displays whether the year will be a common or leap year | boolean func |
 | daysOfTheMonth | calculates the number of days that are in a certain month and year of user's input, utilizes previous leapYear function | switch case and boolean func  |
 | fizzBuzz | 'FizzBuzz' challenge on Hackerrank | iterations |
 
