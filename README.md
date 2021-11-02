@@ -15,3 +15,5 @@ A collection of various MIPS instructions and programs I've written with extensi
 | mulitpleof24 | num = num * 24 ; the value of num is already in t4 register ; after all the computations are finished, a new value of num should also be in $t4 | restricted to add, addi, and sub functions |
 | increment | the incrementing command '++' | use memory address stored in a register ; lw & sw | 
 | mathematicalPrecedence | mathematical order of operations  | "creating" a register with $zero |
+
+###### all rights reserved
