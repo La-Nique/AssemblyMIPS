@@ -16,6 +16,6 @@ A collection of various MIPS instructions and programs I've written with extensi
 | increment | the incrementing command '++' | use memory address stored in a register ; lw & sw | 
 | mathematicalPrecedence | mathematical order of operations without simplification | "creating" a register with $zero |
 | negativeValues | mathematical precedence without simplification  | initial value cancels out |
-
+| forLoop | for loop implementation with conditionals  | jumps and branches |
 
 ###### all rights reserved
