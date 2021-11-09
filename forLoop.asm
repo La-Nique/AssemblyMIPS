@@ -17,10 +17,15 @@ addi $t6, $zero, 10
 START_LOOP:
   BEQ $s7, $t6, QUIT_LOOP
   # if s7 (int i) == 10, then execute QUIT LOOP label instructions.
+  # branch.
+  # BEQ : if two registers are equal, then jump to label.
+  # BNE : if two registers are not equal, then jump to label.
   
   # <loop body instructions begin>
+  
   addi $s0, $s0, 1
   # a++; , a is stored within reigster s0 and value is incremented by 1.
+  
   # </loop body instructions end>
   
   addi $s7, $s7, 1
@@ -31,3 +36,26 @@ START_LOOP:
   
 QUIT_LOOP:
 # ...exited.
+
+#
+# without comments:
+#
+
+addi $s7, $zero, 0
+addi $t6, $zero, 10
+
+START_LOOP:
+  BEQ $s7, $t6, QUIT_LOOP
+  
+  # <loop body instructions begin>
+  
+  addi $s0, $s0, 1
+  
+  # </loop body instructions end>
+  
+  addi $s7, $s7, 1
+  
+  j START_LOOP 
+  
+  
+QUIT_LOOP:
