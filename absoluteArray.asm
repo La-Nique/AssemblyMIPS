@@ -43,11 +43,11 @@ START:
     ABSOLUTE:
     # absolute value function begins.
     
-      sub $t2, $t2, $t2
-      # t2 = t2 - t2 , 0
-      sub $t2, $t2, $t2
-      # t2 = 0 - t2 , (0-nums[i])
-      sw $t2, 0($t2)
+      sub $t3, $t2, $t2
+      # t3 = t2 - t2 , 0
+      sub $t3, $t2, $t2
+      # t3 = 0 - t2 , (0-nums[i])
+      sw $t3, 0($t2)
       # store modified value in address.
       lw $t2, 4($t2)
       # int nums[i++]
