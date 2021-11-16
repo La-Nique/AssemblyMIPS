@@ -17,8 +17,8 @@ A collection of various MIPS instructions and programs I've written with extensi
 | mathematicalPrecedence | mathematical order of operations without simplification | "creating" a register with $zero |
 | negativeValues | mathematical precedence without simplification  | initial value cancels out |
 | forLoop | for loop implementation with conditionals  | jumps and branches |
-| smartStudent | loading, modifying, and storing data in offset addresses  | - |
-| absoluteArray | - | - |
+| smartStudent | loading, modifying, and storing data in offset addresses  | unsigned ints & shorts and offset lw by bytes |
+| absoluteArray | traverse through an array and replace negative integers by it's absolute value | for loops, comparisons, boolean expressions, if-statements, creating functions |
 
 
 ###### all rights reserved
