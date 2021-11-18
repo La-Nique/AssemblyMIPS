@@ -45,7 +45,7 @@ START:
     
       sub $t3, $t2, $t2
       # t3 = t2 - t2 , 0
-      sub $t3, $t2, $t2
+      sub $t3, $t3, $t2
       # t3 = 0 - t2 , (0-nums[i])
       sw $t3, 0($t2)
       # store modified value in address.
