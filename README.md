@@ -19,6 +19,6 @@ A collection of various MIPS instructions and programs I've written with extensi
 | forLoop | for loop implementation with conditionals  | jumps and branches |
 | smartStudent | loading, modifying, and storing data in offset addresses  | unsigned ints & shorts and offset lw by bytes |
 | absoluteArray | traverse through an array and replace negative integers by its absolute value | for loops, comparisons, boolean expressions, if-statements, creating functions |
-
+| - | - | - |
 
 ###### all rights reserved
