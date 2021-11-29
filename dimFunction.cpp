@@ -14,20 +14,17 @@
 
     int main() example:
       {
-
         unsigned  original = 0x010AFF09;
-        unsigned  dimed = Dim( original, 3 );
-
+        unsigned  dimed = Dim(original, 3); (unsigned int originalColor (original), int dimRatio (3))
+        
         std::cout << std::hex << dimed; // should display a value 0x01035503
-
       }
 
+    Explanation of Dim(unsigned int, int) example:
 
-    Explanation of int main() example:
-
-    Extra component was 0x01 in original and remain unchanged in dimed
-    Red component was 0x09 in original and became 0x03 in dimed
-    Green component was 0xFF in original and became 0x55 in dimed
+    Extra component was 0x01 in original and remain unchanged in dimed.
+    Red component was 0x09 in original and became 0x03 in dimed. // divided by dimRatio (3).
+    Green component was 0xFF in original and became 0x55 in dimed. // 255 (0xFF) / 3 (dimRatio) = 85 (0x55)
     Blue component was 0x0A in original and became 0x03 in dimed (integer division gives 10/3 = 3).
 
     Components must be dealt with separately. 
@@ -36,9 +33,12 @@
 
 unsigned int Dim(unsigned int originalColor, int dimRatio)
 {
-  unsigned int modifiedColor = 0;
+  unsigned int modifiedRGB = 0;
+  // unsigned int extra;
+  unsigned int R;
+  unsigned int G;
+  unsigned int B;
   
   
-  
-  return modifiedColor;
+  return modifiedRGB;
 }
