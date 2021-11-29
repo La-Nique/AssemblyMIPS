@@ -20,5 +20,7 @@ A collection of various MIPS instructions and programs I've written with extensi
 | smartStudent | loading, modifying, and storing data in offset addresses  | unsigned ints & shorts and offset lw by bytes |
 | absoluteArray | traverse through an array and replace negative integers by its absolute value | for loops, comparisons, boolean expressions, if-statements, creating functions |
 | doWhileLoop | most optimal implementation of a do-while loop | loops |
+| shiftLeftRightLogical | - | - |
+| dimFunction | - | - |
 
 ###### all rights reserved
