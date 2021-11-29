@@ -34,11 +34,11 @@
 unsigned int Dim(unsigned int originalColor, int dimRatio)
 {
   unsigned int modifiedRGB = 0;
-  // unsigned int extra;
-  unsigned int R;
-  unsigned int G;
-  unsigned int B;
+  // unsigned int extra; // 0-bits-index. (left); then 24-bits-index. (right); leave alone; then 24-bits-index. (left); then save in modified u int
+  unsigned int R; // 8-bits-index. (left); then 24-bits-index. (right); then divide by dimRatio; then 16-bits-index. (left); then save in modified u int
+  unsigned int G; // 16-bits-index. (left); then 24-bits-index. (right); then divide by dimRatio; then 8-bits-index. (left); then save in modified u int
+  unsigned int B; // 24-bits-index. (left); then 24-bits-index. (right); then divide by dimRatio; then leave alone; then save in modified u int
   
   
-  return modifiedRGB;
+  return modifiedRGB; // return all "added" (&) modified values.
 }
