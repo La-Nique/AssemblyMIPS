@@ -1,3 +1,14 @@
+# Convert C++ Code into MIPS...
+# // index in a0
+# // result v0
+# 
+# int Fib (int index) {
+#  if (index == 1 || index == 2)
+#     return 1;
+#
+# return Fib(index-1) + Fib (index-2);
+# }
+
 Fib:
    addi  $t0, $zero, 1       # t0=1
    beq  $a0, $t0, RET_1  # is index==1 ?
