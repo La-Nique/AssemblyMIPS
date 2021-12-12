@@ -25,3 +25,8 @@
 #    addi  $v0, $zero, 10   
 # 
 #    syscall
+
+# Problem broken down:
+# $a3 the address of ---> Null-termination character == ‘\0’
+# Function COUNT_CAPS
+# return number of capital letters in input string in --> $v1
