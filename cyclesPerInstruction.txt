@@ -1,0 +1,12 @@
+Program A and B
+
+A: 2 instructions, CPI 100 cycles/instruction <--- much greater CPI
+B: 1000 instructions, CPI 1 cycle/instruction
+
+To run Sequence A, will take 200 cycles. 
+To run Sequence B, will take 1000 cycles.
+
+Even though Sequence A has a larger CPI (100 cycles per 1 instruction), Sequence B can do 1000 instruction in 1 cycle,
+Sequence B has more instructions, therefore it will take much longer.
+
+CPI does not tell you which sequence is faster.
