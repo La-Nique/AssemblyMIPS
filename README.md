@@ -23,5 +23,17 @@ A collection of various MIPS instructions and programs I've written with extensi
 | shiftLeftRightLogical | bitwise conversions in both cpp code and assembly | 32-bit address shifting |
 | dimFunction<i>.cpp</i> | takes the address of a color (RGB) and dims it by a percentage |  modifying and combining bits |
 | addEvenParity<i>.cpp</i>| Make 31st bit of data equal to 0 or 1 to ensure that the total number of 1’s in the binary representation of data is even. | bit modification |
+| whileLoop | - | - |
+| switchStatement | - | - |
+| invertBits | - | - |
+| ifElse | - | - |
+| clear5 | - | - |
+| fibonnaciRecurisonMethod | - | - |
+| addFunction | - | - |
+| cyclesPerInstruction.txt | - | - |
+| setBits | - | - |
+| functionMIN | - | - |
+| countCaps | - | - |
+| payment | - | - |
 
 ###### all rights reserved
