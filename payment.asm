@@ -8,3 +8,12 @@
 # For you, it is just a correct MIPS function that does multiplication as specified.
 
 # Function PAYMENT should follow all MIPS function calling conventions.
+
+# $a0 <--- number of hours (integer)
+# $a1 <--- hourly rate (integer)
+# PAYMENT function takes both parameters and returns the amount of money earned in $v0.
+# Imaginary use MYMUL function (it multiples both parameters together)
+
+# let $a0 and $a1 have its values.
+
+jal PAYMENT
