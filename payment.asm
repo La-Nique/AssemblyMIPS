@@ -17,3 +17,20 @@
 # let $a0 and $a1 have its values.
 
 jal PAYMENT
+
+PAYMENT:
+add $s1, $a0, $zero
+#s1 = a0
+add $s1, $a0, $zero
+#s1 = a0
+
+add $s5, $zero, $zero
+
+j MYMUL
+# this function will place multiplication of a0 and a1 within s5, $s5 = a0 * a1
+
+j EXIT
+
+EXIT:
+
+add $v0, $s5, $zero
