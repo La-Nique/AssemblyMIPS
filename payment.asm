@@ -19,18 +19,27 @@
 jal PAYMENT
 
 PAYMENT:
-add $s1, $a0, $zero
-#s1 = a0
-add $s1, $a0, $zero
-#s1 = a0
+  addi $sp, $sp, -4
+  sw $ra, 0($sp)
+  # store address to stack
 
-add $s5, $zero, $zero
+  add $a6, $a0, $zero
+  # a6 = a0
+  add $a7, $a1, $zero
+  # a7 = a1
 
-j MYMUL
-# this function will place multiplication of a0 and a1 within s5, $s5 = a0 * a1
+  add $s5, $zero, $zero
+
+  jal MYMUL
+  # let MYMUL function place multiplication of parameters a0 and a1 within s5; $s5 = a0 * a1
+
+  lw $ra, 0($sp)
+  addi $sp, $sp, 4
+  # restore stack pointer
 
 j EXIT
 
 EXIT:
 
-add $v0, $s5, $zero
+  add $v0, $s5, $zero
+  jr $ra
