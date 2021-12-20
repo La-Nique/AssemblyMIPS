@@ -1,7 +1,7 @@
 # Assembly Language (MIPS)
 
 ###### Computer Architecture II
-###### all files written by Lanique Peterson
+###### by Lanique Peterson
 
 ### Overview
 
@@ -23,17 +23,17 @@ A collection of various MIPS instructions and programs I've written with extensi
 | shiftLeftRightLogical | bitwise conversions in both cpp code and assembly | 32-bit address shifting |
 | dimFunction<i>.cpp</i> | takes the address of a color (RGB) and dims it by a percentage |  modifying and combining bits |
 | addEvenParity<i>.cpp</i>| Make 31st bit of data equal to 0 or 1 to ensure that the total number of 1’s in the binary representation of data is even. | bit modification |
-| whileLoop | - | - |
-| switchStatement | - | - |
-| invertBits | - | - |
-| ifElse | - | - |
-| clear5 | - | - |
-| fibonnaciRecurisonMethod | - | - |
-| addFunction | - | - |
-| cyclesPerInstruction.txt | - | - |
-| setBits | - | - |
-| functionMIN | - | - |
-| countCaps | - | - |
-| payment | - | - |
+| whileLoop | while-loop implementation with incrementation | jumps and labels |
+| switchStatement | switch statement implementation | " |
+| invertBits | invert specific bits within an address | boolean xor command |
+| ifElse | C++ if (...) else (...) converison into MIPS instructions | branch jumps |
+| clear5 | clears specific bit within an address | boolean and command |
+| fibonnaciRecurisonMethod | fibonnaci algorithm with recurison  | recurison, stack pointer, jump/link && jump/return |
+| addFunction | adding three values and returning address into specific register | allocating memory and stack pointer |
+| cyclesPerInstruction<i>.txt</i> | cycles per instruction comparison | CPI |
+| setBits | setting specific bits within 32-bit memory addresses | boolean and and or commands |
+| functionMIN | compares values stored within two register and returns the smallest number into a different register. | standard MIPS function calling conventions |
+| countCaps | within our given input string, how many captial letters are there? | ASCII and lb and standard MIPS function calling conventions |
+| payment | multiply two reigsters within a function by calling a multiplication function and returning the output value into a different reigster | allocating memory on the stack with stack pointer manipulation |
 
 ###### all rights reserved
