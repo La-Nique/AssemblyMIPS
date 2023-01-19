@@ -1,9 +1,7 @@
 # Assembly Language (MIPS)
+###### all programs written by Lanique Peterson
 
-###### Computer Architecture II
-###### by Lanique Peterson
-
-### Overview
+### :+: Repo Overview :+:
 
 A collection of various MIPS instructions and programs I've written with extensive notes. Foundational code reviewing and experimentation.
 
